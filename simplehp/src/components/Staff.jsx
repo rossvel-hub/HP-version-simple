@@ -2,8 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 
 const Staff = ({ staff, quitarStaff }) => (
-    <section>
-        <h2>STAFF</h2>
+    <section className="section-staff">
+        <h2 className="title-staff">STAFF</h2>
         <div className="staff">
             {
                 staff.map(p => (

@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 const Personajes = ({personajes, agregarEstudiante, agregarStaff}) => (
     <section>
-                <h3>PERSONAJES</h3>
+                <h3 className="title-personajes">PERSONAJES</h3>
             <div className="container-all-cards">
                 {
                     personajes.map(p => (

@@ -234,29 +234,6 @@ const initialState = {
     },
     {
         "id":11,
-        "name": "Neville Longbottom",
-        "species": "human",
-        "gender": "male",
-        "house": "Gryffindor",
-        "dateOfBirth": "30-07-1980",
-        "yearOfBirth": 1980,
-        "ancestry": "pure-blood",
-        "eyeColour": "",
-        "hairColour": "blonde",
-        "wand": {
-            "wood": "cherry",
-            "core": "unicorn tail-hair",
-            "length": 13
-        },
-        "patronus": "",
-        "hogwartsStudent": true,
-        "hogwartsStaff": false,
-        "actor": "Matthew Lewis",
-        "alive": true,
-        "image": "http://hp-api.herokuapp.com/images/neville.jpg"
-    },
-    {
-        "id":12,
         "name": "Luna Lovegood",
         "species": "human",
         "gender": "female",
@@ -279,7 +256,7 @@ const initialState = {
         "image": "http://hp-api.herokuapp.com/images/luna.jpg"
     },
     {
-        "id":13,
+        "id":12,
         "name": "Vincent Crabbe",
         "species": "human",
         "gender": "male",
@@ -302,7 +279,7 @@ const initialState = {
         "image": "http://hp-api.herokuapp.com/images/crabbe.jpg"
     },
     {
-        "id":14,
+        "id":13,
         "name": "Gregory Goyle",
         "species": "human",
         "gender": "male",
@@ -325,7 +302,7 @@ const initialState = {
         "image": "http://hp-api.herokuapp.com/images/goyle.jpg"
     }, 
     {
-        "id":15,
+        "id":14,
         "name": "Argus Filch",
         "species": "human",
         "gender": "male",
@@ -348,7 +325,7 @@ const initialState = {
         "image": "http://hp-api.herokuapp.com/images/filch.jpg"
     },
     {
-        "id":16,
+        "id":15,
         "name": "Severus Snape",
         "species": "human",
         "gender": "male",
@@ -371,7 +348,7 @@ const initialState = {
         "image": "http://hp-api.herokuapp.com/images/snape.jpg"
     },
     {
-        "id":17,
+        "id":16,
         "name": "Rubeus Hagrid",
         "species": "half-giant",
         "gender": "male",
@@ -394,7 +371,7 @@ const initialState = {
         "image": "http://hp-api.herokuapp.com/images/hagrid.png"
     },
     {
-        "id":18,
+        "id":17,
         "name": "Remus Lupin",
         "species": "werewolf",
         "gender": "male",
@@ -417,7 +394,7 @@ const initialState = {
         "image": "http://hp-api.herokuapp.com/images/lupin.jpg"
     },
     {
-        "id":19,
+        "id":18,
         "name": "Horace Slughorn",
         "species": "human",
         "gender": "male",
@@ -440,7 +417,7 @@ const initialState = {
         "image": "http://hp-api.herokuapp.com/images/slughorn.JPG"
     },
     {
-        "id":20,
+        "id":19,
         "name": "Dolores Umbridge",
         "species": "human",
         "gender": "female",
@@ -463,7 +440,7 @@ const initialState = {
         "image": "http://hp-api.herokuapp.com/images/umbridge.jpg"
     },
     {
-        "id":21,
+        "id":20,
         "name": 
 	    "Minerva McGonagall",
         "species": "human",
@@ -485,9 +462,7 @@ const initialState = {
         "actor": "Dame Maggie Smith",
         "alive": true,
         "image": "http://hp-api.herokuapp.com/images/mcgonagall.jpg"
-
     }
-
     ],
     estudiantes: [],
     staff: []

@@ -3,8 +3,8 @@ import { connect } from "react-redux";
 
 
 const Estudiantes = ({ estudiantes, quitarEstudiante }) => (
-    <section>
-        <h2>ESTUDIANTES</h2>
+    <section className="section-estudiantes">
+        <h2 className="title-estudiantes">ESTUDIANTES</h2>
         <div className="espacio-estudiantes">
             {
                 estudiantes.map(p => (

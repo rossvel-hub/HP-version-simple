@@ -9,14 +9,13 @@
   font-family: 'Roboto', sans-serif;
 }
 
-
 .header-estilos {
   display: flex;
   background-color: black;
   padding: 1rem 4rem;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .logo-img {
@@ -30,10 +29,10 @@
 }
 
 .btn-agregar {
-  height: 67px;
-  width: 90%;
+  height: 59px;
+  width: 55%;
   /* margin-top: 0px; */
-  font-size: 1.25rem;
+  font-size: -1.75rem;
   font-weight: 700;
   background: linear-gradient(to top right, #34025f, #378486);
   color: antiquewhite;
@@ -43,6 +42,7 @@
   /* left: 6px; */
   right: 22px;
   cursor: pointer;
+  margin: 0px 60px;
 }
 
 /*MODAL*/
@@ -252,14 +252,12 @@ main {
   height: 35px;
   font-size: 1rem;
   font-weight: 700;
-
   background: linear-gradient(to top right, #eeb90a, #db0303);
   color: antiquewhite;
   letter-spacing: 0.25rem;
   border-radius: 5px;
   margin: 0px 5px;
 }
-
 
 .btn-car-agregar {
   height: 41px;
@@ -283,6 +281,18 @@ main {
 
 }
 /*ESTILOS ESTUDIANTES SELECCIONADO */
+
+.section-estudiantes{
+  padding: 60px;
+}
+
+.title-estudiantes{
+  color:#ebe1c9;
+  letter-spacing: 1em;
+  font-size: 1.75rem;
+  font-weight: bolder;
+}
+
 .container-estudiante{
   display: flex;
   flex-direction: column;
@@ -350,6 +360,17 @@ main {
 }
 
 /*ESTILOS STAFF SELECCIONADO*/
+
+.section-staff {
+  padding: 60px; 
+}
+
+.title-staff {
+  color:#ebe1c9;
+  letter-spacing: 1em;
+  font-size: 1.75rem;
+  font-weight: bolder;
+}
 
 .staff {
   display: flex;
