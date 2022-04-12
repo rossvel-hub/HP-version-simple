@@ -1,5 +1,4 @@
 import React from "react";
-//import Escudo from '../assets/escudo.png';
 import { connect } from "react-redux";
 
 const Personajes = ({personajes, agregarEstudiante, agregarStaff}) => (

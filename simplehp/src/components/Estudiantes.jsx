@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-// import cancha from "../cancha.svg"
+
 
 const Estudiantes = ({ estudiantes, quitarEstudiante }) => (
     <section>
@@ -21,7 +21,6 @@ const Estudiantes = ({ estudiantes, quitarEstudiante }) => (
                     </artricle>
                 ))
             }
-            {/* <img src={cancha} alt="cancha de fut"/> */}
         </div>
     </section>
 )

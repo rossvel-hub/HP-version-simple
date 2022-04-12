@@ -17,15 +17,17 @@ export default function Agregar () {
                      <div className="form-styles">
                             <button onClick={() => { abrirCerarModal() }} className="btn-cerrar-modal"> X</button>
                          <form action=""  className="form-styles">
-                            <label>NOMBRE</label>
+                            <label>Nombre</label>
                             <input className="input-modal" type="text" />
-                            <label>NOMBRE</label>
+                            <label>Cumpleaños</label>
                             <input className="input-modal" type="text" />
-                            <label>NOMBRE</label>
+                            <label>Genero</label>
                             <input  className="input-modal" type="text" />
-                            <label>NOMBRE</label>
+                            <label>Color de ojos</label>
                             <input  className="input-modal" type="text" />
-                            <label>NOMBRE</label>
+                            <label>Color de cabello</label>
+                            <input  className="input-modal" type="text" />
+                            <label>Casa</label>
                             <input  className="input-modal" type="text" />
                         </form>
                      </div>

@@ -12,11 +12,11 @@
 
 .header-estilos {
   display: flex;
-    background-color: black;
-    padding: 1rem 4rem;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  background-color: black;
+  padding: 1rem 4rem;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .logo-img {
@@ -31,40 +31,40 @@
 
 .btn-agregar {
   height: 67px;
-    width: 90%;
-    /* margin-top: 0px; */
-    font-size: 1.25rem;
-    font-weight: 700;
-    background: linear-gradient(to top right, #34025f, #378486);
-    color: antiquewhite;
-    letter-spacing: 0.25rem;
-    border-radius: 15px;
-    border-color: none;
-    /* left: 6px; */
-    right: 22px;
-    cursor: pointer;
+  width: 90%;
+  /* margin-top: 0px; */
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: linear-gradient(to top right, #34025f, #378486);
+  color: antiquewhite;
+  letter-spacing: 0.25rem;
+  border-radius: 15px;
+  border-color: none;
+  /* left: 6px; */
+  right: 22px;
+  cursor: pointer;
 }
 
 /*MODAL*/
 
 .modal-styles{
   display: flex;
-    position: absolute;
-    width: 600px;
-    height: 400px;
-    background-color: rgb(152, 176, 177);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    flex: 1 1 auto;
-    margin-top: 20px;
-    border-radius: 15PX;
-    padding: 20PX;
-    color: #000000;
-    font-weight: 700;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  position: absolute;
+  width: 444px;
+  height: 650px;
+  background-color: rgb(231 207 225);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex: 1 1 auto;
+  margin-top: 20px;
+  border-radius: 15PX;
+  padding: 20PX;
+  color: #000000;
+  font-weight: 700;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .btn-cerrar-modal {
@@ -90,13 +90,14 @@
 
 .form-styles {
   display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    align-content: center;
-    justify-content: space-around;
-    margin-top: 60px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 21px;
 }
+
 .input-modal {
   height: 40px;
   width: 200px;
@@ -109,23 +110,23 @@ input:focus {
 }
 
 .btn-agregar-favorito {
-align-items: center;
-display: block;
-color: white;
-font-size: 17px;
-letter-spacing: 2px;
-width: 288px;
-height: 67px;
-margin: 50px;
-border-width: 4px;
-border-style: solid;
-border-color: #6B63B5;
-background-color: rgb(0, 0, 0, 0.6);
-cursor: pointer;
-right: 50px; 
-text-align: center;
-border-radius: 12px;
-cursor: pointer;
+  align-items: center;
+  display: block;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 2px;
+  width: 222px;
+  height: 51px;
+  margin: 36px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #6B63B5;
+  background-color: rgb(0, 0, 0, 0.6);
+  cursor: pointer;
+  right: 50px;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
 }
 
 
@@ -262,12 +263,12 @@ main {
 
 .btn-car-agregar {
   height: 41px;
-    width: 40%;
-    margin-top: 55px;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-left: 75px;
-    margin-top: 205px;
+  width: 40%;
+  margin-top: 55px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 75px;
+  margin-top: 205px;
 }
 
 .espacio-estudiantes{
@@ -292,20 +293,20 @@ main {
 
 .card-div-estudiantes{
   position: relative;
-    display: flex;
-    flex-direction: column;
-    word-wrap: break-word;
-    background: linear-gradient(to top right, #010316, #838886);
-    background-color: #fff;
-    /* background-clip: border-box; */
-    border: 5px solid rgba(0, 0, 0, 0);
-    /* border-radius: 1rem; */
-    margin: 14px;
-    height: 255px;
-    width: 150px;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background: linear-gradient(to top right, #010316, #838886);
+  background-color: #fff;
+  /* background-clip: border-box; */
+  border: 5px solid rgba(0, 0, 0, 0);
+  /* border-radius: 1rem; */
+  margin: 14px;
+  height: 255px;
+  width: 150px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-div-img-estudiante {
@@ -317,11 +318,11 @@ main {
 
 .img-estudiante-style{
   height: 80%;
-    width: 80%;
-    border-radius: 50%;
-    margin-top: 11px;
-    margin-left: 8px;
-    margin-bottom: 21px;
+  width: 80%;
+  border-radius: 50%;
+  margin-top: 11px;
+  margin-left: 8px;
+  margin-bottom: 21px;
 }
 
 .card-div-name-button{
@@ -353,11 +354,11 @@ main {
 .staff {
   display: flex;
   flex-direction: row;
-    flex-wrap: wrap;
-    background: rgba(34, 34, 32, 0.67);
-    border-radius: 10px;
-    justify-content: center;
-    align-content: center;
+  flex-wrap: wrap;
+  background: rgba(34, 34, 32, 0.67);
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
 }
 
 .container-staff {
@@ -370,20 +371,20 @@ main {
 
 .card-div-staff {
   position: relative;
-    display: flex;
-    flex-direction: column;
-    word-wrap: break-word;
-    background: linear-gradient(to top right, #272513, #ebe1c9);
-    background-color: #fff;
-    /* background-clip: border-box; */
-    border: 5px solid rgba(0, 0, 0, 0);
-    /* border-radius: 1rem; */
-    margin: 14px;
-    height: 255px;
-    width: 150px;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background: linear-gradient(to top right, #272513, #ebe1c9);
+  background-color: #fff;
+  /* background-clip: border-box; */
+  border: 5px solid rgba(0, 0, 0, 0);
+  /* border-radius: 1rem; */
+  margin: 14px;
+  height: 255px;
+  width: 150px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-div-img-staff {
